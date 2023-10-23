@@ -4,7 +4,7 @@ Quick installation of mining on Android Phones
 ## Github cloning and customizing
 1. clone this repo to your own github account.
 2. change the URL on line 35 of the README.md to reflect your own account.
-3. replace `QR/install.png` with your own.
+## 3. replace `QR/install.png` with your own.
 4. **Important**: change the SSH key on line 13 of `install.sh` to reflect your own SSH key.
 5. change lines 50 to reflect your own github link.
 6. adjust the `config.json` to your address and mining details.
@@ -34,8 +34,6 @@ If the output doesn't show `Architecture: aarch64` or `CPU op-mode(s): 32-bit, 6
 ```bash
 curl -o- -k https://raw.githubusercontent.com/l0neDev/Android-Mining/main/install.sh | bash
 ```
-For easy access on phones:
-![install.sh](QR/install.png)
 
 Now adjust pools, mineraddress+workername, and network settings for the API.
 exit with `<CTRL>-X` followed by `y` and an `<ENTER>`
