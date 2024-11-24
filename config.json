@@ -1,8 +1,8 @@
 {
 	"pools":[
 	{
-		"name": "niceHash",
-        "url": "stratum+tcp://verushash.auto.nicehash.com:9200",
+		"name": "vipor",
+        "url": "stratum+tcp://vipor.net:5040",
 		"timeout": 150,
 		"disabled": 0
 	}],
